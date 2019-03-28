@@ -1,4 +1,4 @@
-#Dailyprogrammer
+# Dailyprogrammer
 
 My solutions to some of the challenges found at [r/dailyprogrammer](www.reddit.com/r/dailyprogrammer)
 
