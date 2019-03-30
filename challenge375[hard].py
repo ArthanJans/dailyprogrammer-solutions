@@ -33,5 +33,11 @@ with open("input375[hard].txt") as inFile:
                         print(first, relationships[first][person], person)
                         print(second, relationships[second][person], person)
                         exit()
+                elif relationships[first][second] != "++":
+                    print("not balanced")
+                    print(first, relationships[first][second], second)
+                    print(first, relationships[first][person], person)
+                    print(second, relationships[second][person], person)
+                    exit()
 
 print("balanced")
